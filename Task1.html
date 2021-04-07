@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+
+    <!--title-->
+<title>Task</title>
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(255, 252, 225);
+    box-sizing: border-box;
+}
+h1{
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+.container-fluid{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+    justify-content: space-around;
+}
+.container-fluid > div{
+    color: rgb(40, 40, 40);
+    background-color: white;
+    padding: 15px 15px 50px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+    font-family: 'Cinzel', serif;
+}
+
+h2, p, a{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+a:hover:after {
+  width: 40%;
+  background: rgb(40, 40, 40);
+}
+
+</style>
+</head>
+<body>
+        <h1>Egypt Tourism</h1>
+    <div class="container-fluid">
+            <!--first product-->
+        <div class="frst-container">
+    <img src="alexandria.jpg" alt="Alexandria" width="300" height="200">
+    <h2>Alexandria</h2>
+    <p>The second capital of Egypt<br> and the spectacular meditranian bride.</p>
+        <!--link-->
+        <br>
+    <p><a href="alex.html">Click for details</a></p>
+        </div>
+
+        <!--Second product-->
+        <div class="scnd-container">
+    <img src="cairo.png" alt="Cairo" width="300" height="200">
+    <h2>Cairo</h2>
+    <p>The first capital of Egypt and the city<br> of pyramids.</p>
+        <!--link-->
+        <br>
+    <p><a href="cairo.html">Click for details</a></p>
+        </div>
+
+    <!--Third product-->
+        <div class="thrd-container">
+    <img src="luxor.jpg" alt="Luxor" width="300" height="200">
+    <h2>Luxor</h2>
+    <p>The city that contains two-thirds of<br> Egypt's antiquities.</p>  
+    <!--link-->
+    <br>
+    <p><a href="luxor.html">Click for details</a></p>
+        </div>
+    </div>
+</body>
+</html>
