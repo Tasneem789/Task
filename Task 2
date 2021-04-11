@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Task2</title>
+
+    <!-- Bootstrap & Css link-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    
+    
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="videoContainer hide-for-small-only">
+      <video width="100%" height="100%" autoplay loop muted >
+            <source src="Library.mp4" type="video/mp4">
+      </video>
+      <div class="custom-shape-divider-bottom-1618165528">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+      </div>
+      <div class="title-head">
+          <h1><strong>B</strong>ookology</h1>
+      </div>
+      <div class="X">
+            <h3>Here we introduce you some of our books hope you enjoy</h3>
+        
+        <ul class="SG">
+          <li class="sgLi">
+            <div class="box">
+            <h3>Adventure and Action</h3>
+            <ul class="df">
+                <li> The Three Musketeers</li>
+                <li> Harry Potter</li>
+                <li> Life of Pi</li>
+                <li> The call of the Wild</li>
+            </ul> 
+          </div>
+         </li> 
+          <li class="sgLi">
+            <div class="box">
+           <h3>Classics</h3>
+           <ul class="s1">
+            <li> To Kill a Mockingbird</li>
+            <li> LIttle Woman</li>
+            <li> Beloved</li>
+           </ul>
+          </div>
+         </li>
+          <li class="sgLi">
+            <div class="box">
+           <h3>Comic Book or Graphic Novel</h3>
+           <ul class="s2">
+            <li>The Boy, the Mole, the Fox and the Horse</li>
+            <li>The Walking Dead: Compendium One</li>
+            <li>Watchmen</li>
+           </ul>
+          </div>
+         </li>
+          <li class="sgLi">
+            <div class="box">
+           <h3>Detective and Mystery</h3>
+           <ol class="s3">
+            <li>And Then There Were None</li>
+            <li>The Adventures of Sherlock Holmes</li>
+            <li>The Night Fire</li>
+           </ol>
+          </div>
+         </li> 
+          <li class="sgLi">
+            <div class="box">
+           <h3>Fantasy</h3>
+           <ol class="s4">
+            <li>The Water Dancer</li>
+            <li>Ninth House</li>
+            <li>Circe</li>
+           </ol>
+          </div>
+         </li>
+          <li class="sgLi">
+            <div class="box">
+           <h3>Historical Fiction</h3>
+           <ol class="s5">
+            <li>The Help</li>
+            <li>One Hundred Years of Solitude</li>
+            <li>Memoirs of a Geisha</li>
+           </ol>
+          </div>
+         </li>
+          <li class="sgLi">
+            <div class="box">
+           <h3>Horror</h3>
+           <ol class="s6">
+            <li>Bird Box</li>
+            <li>Carrie</li>
+            <li>The Haunting of Hell House</li>
+           </ol>
+          </div>
+         </li>
+          <li class="sgLi">
+            <div class="box">
+           <h3>Style lower-roman</h3>
+           <ol class="s7">
+            <li>Friday</li>
+            <li>Monday</li>
+            <li>Saturday</li>
+            <li>Wednesday</li>
+           </ol>
+          </div>
+         </li>  
+          <li class="sgLi">
+            <div class="box">
+           <h3>Literary Fiction</h3>
+           <ol class="s8">
+            <li>Where the Crawdads Sing</li>
+            <li>Olive, Again</li>
+            <li>The Dutch House: A Novel</li>
+           </ol>
+          </div>
+         </li>    
+          <li class="sgLi">
+            <div class="box">
+           <h3>Romance</h3>
+           <ol class="s10">
+            <li>Brazen and the Beast</li>
+            <li>Royal Holiday</li>
+            <li>The Savior</li>
+           </ol>
+          </div>
+         </li>  
+          <li class="sgLi">
+            <div class="box">
+           <h3>Science Fiction (Sci-Fi)</h3>
+           <ol class="s11">
+            <li>The Hunger Games Trilogy</li>
+            <li>The Testaments</li>
+            <li>1984</li>
+           </ol>
+          </div>
+         </li>  
+          <li class="sgLi">
+            <div class="box">
+           <h3>Short Stories</h3>
+           <ol class="s12">
+            <li>How Long 'til Black Future Month?</li>
+            <li>This Is How You Lose Her</li>
+            <li>Florida</li>
+           </ol>
+          </div>
+         </li>  
+          
+        </div>
+    
+</body>
+</html>
